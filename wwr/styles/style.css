@@ -1,0 +1,75 @@
+#content {
+    max-width: 1600px;
+    margin: 0 auto;
+}
+
+nav, a, #hero-msg h1, #hero-msg h4, .button-box, main section {
+    text-align: center;
+    text-decoration: none;
+}
+
+#background {
+    height: 725px;
+}
+
+body {
+    background-color: #b3a1d1; 
+}
+header {
+    background-color:rgba(159, 208, 125, 0.7);
+}
+nav a:hover {
+    background-color: rgb(40, 179, 248);
+}
+
+.book, .join {
+    background-color: rgb(242, 190, 47);
+}
+
+.book:hover, .join:hover {
+    background-color: rgb(232, 107, 82); 
+}
+
+#background {
+    background-color: rgb(221, 223, 197); 
+}
+
+.msg {
+    background-color: rgb(232, 119, 121); 
+}
+
+footer {
+    background-color: rgb(234, 191, 122); 
+}
+
+.home-title {
+    background-color: rgb(170, 100, 149); 
+}
+
+h4 {
+    background-color: rgb(174, 106, 154); 
+}
+
+.msg h2, .msg p {
+    background-color: rgb(117, 201, 177); 
+}
+
+footer a {
+    background-color: rgb(252, 248, 249); 
+}
+
+footer a:hover {
+    background-color: rgb(196, 98, 122); 
+}
+
+.logo, .icon {
+    width: 80px;
+}
+
+footer p {
+    font-size: 1.2em;
+}    
+
+footer p a:hover {
+    text-decoration: underline;
+}    
