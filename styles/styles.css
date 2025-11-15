@@ -1,5 +1,14 @@
+
+:root {
+  --primary-color: darkblue;
+  --secondary-color: white;
+  --border-standard: 1px solid #000;
+  --margin-standard: 1rem;
+  --box-shadow-standard: 0 0 30px gray;
+}
+
 nav {
-    background-color: darkblue;
+    background-color: var(--primary-color);
     padding: 10px;
 }
 
@@ -14,15 +23,15 @@ main {
 }
 
 h1 {
-  color: darkblue;
+  color: var(--primary-color);
 }
 
 img {
   width: 150px;
   height: auto;
-  border: 1px solid black;
+  border: var(--border-standard);
   padding: 2px;
-  box-shadow: 0 0 30px gray;
+  box-shadow: var(--box-shadow-standard);
 }
 
 p {
@@ -48,13 +57,13 @@ main img {
   width: 150px;
   height: auto;
   margin: 1rem;
-  border: 1px solid #000;
+  border: var(--border-standard);
   padding: 3px;
-  box-shadow: 0 0 30px #333;
+  box-shadow: var(--box-shadow-standard);
 }
 
 footer {
   margin-top: 15px;
-  border-top: 1px solid #000;
+  border-top: var(--border-standard);
   text-align: center;
 }
