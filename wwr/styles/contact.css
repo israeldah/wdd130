@@ -14,16 +14,14 @@
 }
 
 header {
-    background-color: var(--accent1-color);
-    color: var(--accent2-color);
-  }
-
-header {
+  background-color: var(--accent1-color);
+  color: var(--accent2-color);
   display: grid;
   grid-template-columns: auto 1fr;
   align-items: center;
-  padding: 10px 20px; 
+  padding: 10px 20px;
 }
+
 
 header img {
   justify-self: start;
@@ -60,11 +58,17 @@ main {
   font-family: Arial, Helvetica, sans-serif;
 }
 
+iframe {
+  border: 0;
+}
+
 .vide {
     display: block;
     text-align: center;
     padding: 1rem;
 }
+
+
 
 p {
   padding: 1rem;
@@ -80,6 +84,7 @@ p {
     margin: 1rem;
     border: 1px solid rgb(0 0 0 / 10%);
     padding: 1rem;
+    color: #000;
 }
 
 .info-item {
@@ -115,7 +120,7 @@ button {
 }
 
 button:hover {
-  background-color: #FC6B36;
+  background-color: var(--accent1-color);
 }
 
 
