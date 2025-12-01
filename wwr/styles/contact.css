@@ -76,16 +76,20 @@ p {
   justify-content: space-evenly;
 }
 
-form {
-  width: 500px;
-  background-color: lightgrey;
-  padding: .75rem;
-  font-family: Arial, Helvetica, sans-serif;
+.box {
+    margin: 1rem;
+    border: 1px solid rgb(0 0 0 / 10%);
+    padding: 1rem;
+}
+
+.info-item {
+    border: none;
 }
 
 main img {
   width: 300px;
 }
+
 
 .info {
     display: block;

@@ -33,27 +33,33 @@
                 src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d8264.556302433612!2d-116.68455152882555!3d44.57102180477719!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x54a5792843b1f901%3A0x92ac117752d48d10!2sAmerica&#39;s%20Rafting%20Company!5e0!3m2!1sen!2sci!4v1764450458080!5m2!1sen!2sci"
                 width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"
                 referrerpolicy="no-referrer-when-downgrade"></iframe>
-            <form>
-                <label for="name">Name</label>
-                <input type="text" id="name" placeholder="Enter your Name" required>
-
-                <label for="email">Email</label>
-                <input type="email" id="email" placeholder="Enter your email address" readonly>
-
-                <label>Message Purpose</label>
-                <div class="radio-group">
-                    <input type="radio" id="general" name="purpose" value="general">
-                    <label for="general">General Inquiry</label><br>
-
-                    <input type="radio" id="reservation" name="purpose" value="reservation">
-                    <label for="reservation">Reservation Question</label><br>
-
-                    <input type="radio" id="website" name="purpose" value="website">
-                    <label for="website">Website Suggestion</label>
+            <form class="box">
+                <div class="info-item box">
+                    <label for="name">Name</label>
+                    <input type="text" id="name" placeholder="Enter your Name" required>
                 </div>
-                <label for="message">Message</label>
-                <textarea id="message" placeholder="Type here"></textarea>
-                <div class="checkbox-group">
+                <div class="info-item box">
+                    <label for="email">Email</label>
+                    <input type="email" id="email" placeholder="Enter your email address" required>
+                </div>
+                <div class="info-item box">
+                    <label>Message Purpose</label>
+                    <div class="radio-group">
+                        <input type="radio" id="general" name="purpose" value="general">
+                        <label for="general">General Inquiry</label><br>
+
+                        <input type="radio" id="reservation" name="purpose" value="reservation">
+                        <label for="reservation">Reservation Question</label><br>
+
+                        <input type="radio" id="website" name="purpose" value="website">
+                        <label for="website">Website Suggestion</label>
+                    </div>
+                </div>
+                <div class="info-item box">
+                    <label for="message">Message</label>
+                    <textarea id="message" placeholder="Type here"></textarea>
+                </div>
+                <div class="info-item box">
                     <input type="checkbox" id="subscribe">
                     <label for="message">Please subscribe me to the Monthly Newsletter</label>
                 </div>
