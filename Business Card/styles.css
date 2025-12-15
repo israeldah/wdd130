@@ -1,0 +1,82 @@
+@import url('https://fonts.googleapis.com/css2?family=Google+Sans:ital,opsz,wght@0,17..18,400..700;1,17..18,400..700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+body {
+    margin: 20px;
+    font-family: "Google Sans", sans-serif;
+    margin: 2rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(90deg, #161B33, #0D0C1D);
+}
+
+.birthday-card {
+    display: flex;
+    background: linear-gradient(90deg, #002642, #F21B3F);
+    width: 600px;
+    gap: 3rem;
+    border-radius: 5px;
+    overflow: hidden;
+}
+.left {
+    width: 150px;
+    flex-direction: column;
+    justify-content: center;
+    color: white;
+    margin: 0, auto;
+    gap: 0.5rem;
+    padding-left: 10px;
+}
+.left h2 {
+    color: #E59500;
+}
+.left p {
+    color: #E5DADA;
+}
+.avatar {
+    width: 150px;
+
+}
+
+.card {
+    padding: 20px;
+    display: flex;
+    justify-content: space-around;
+    width: 400px;
+    margin: 0 auto;
+    text-align: center;
+    background: linear-gradient(90deg, black, #F21B3F);
+    color: #F0F7F4;
+    border-radius: 10px;
+    border-bottom: 6px solid #cb1631;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px inset, rgba(0, 0, 0, 0.3) 0px 18px 36px -18px inset;
+}
+
+.card img {
+    border-radius: 5px;
+    box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;
+    height: auto;
+}
+
+.border-blue {
+    border: 1px dotted blue;
+}
+
+.content {
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+}
+.content h4 {
+    color: #000000;
+}
+.author {
+    color: #9CFFFA;
+}
